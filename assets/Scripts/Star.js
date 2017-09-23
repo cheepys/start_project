@@ -20,12 +20,13 @@ cc.Class({
     },
 
     onPicked: function() {
-        // When the stars are being collected, invoke the interface in the Game script to generate a new star
         this.game.spawnNewStar();
+        // invoke the scoring method of the Game script
+        this.game.gainScore();
         // then destroy the current star's node
         this.node.destroy();
-    },	
-
+    },
+	
     // called every frame, uncomment this function to activate update callback
     update: function (dt) {
         // judge if the distance between the star and main character is shorter than the collecting distance for each frame

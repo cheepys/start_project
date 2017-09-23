@@ -25,6 +25,11 @@ cc.Class({
         player: {
             default: null,
             type: cc.Node
+        },
+
+        scoreDisplay: {
+            default: null,
+            type: cc.Label
         }
     },
 
@@ -33,6 +38,7 @@ cc.Class({
         this.groundY = this.ground.y + this.ground.height / 2; // this.ground.top may also work
         // generate a new star
         this.spawnNewStar();
+        this.score = 0;
     },
 
     spawnNewStar: function spawnNewStar() {
@@ -54,6 +60,12 @@ cc.Class({
         randX = cc.randomMinus1To1() * maxX;
         // return to the anchor point of the star
         return cc.p(randX, randY);
+    },
+
+    gainScore: function gainScore() {
+        this.score += 1;
+        // update the words of the scoreDisplay Label
+        this.scoreDisplay.string = 'Score: ' + this.score.toString();
     }
 
     // called every frame, uncomment this function to activate update callback

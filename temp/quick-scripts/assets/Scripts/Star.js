@@ -24,8 +24,9 @@ cc.Class({
     },
 
     onPicked: function onPicked() {
-        // When the stars are being collected, invoke the interface in the Game script to generate a new star
         this.game.spawnNewStar();
+        // invoke the scoring method of the Game script
+        this.game.gainScore();
         // then destroy the current star's node
         this.node.destroy();
     },

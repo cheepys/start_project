@@ -1,112 +1,52 @@
-2017-09-23T03:09:47.117Z - normal: Load ~/.CocosCreator/settings.json
-2017-09-23T03:09:47.122Z - normal: checking language setting...
-2017-09-23T03:09:47.123Z - normal: Language: en
-2017-09-23T03:09:48.774Z - success: protocol editor-framework registered
-2017-09-23T03:09:48.775Z - success: protocol app registered
-2017-09-23T03:09:48.775Z - success: protocol theme registered
-2017-09-23T03:09:48.775Z - success: protocol profile registered
-2017-09-23T03:09:48.775Z - success: protocol packages registered
-2017-09-23T03:09:48.775Z - success: protocol unpack registerred
-2017-09-23T03:09:48.775Z - success: protocol disable-commonjs registerred
-2017-09-23T03:09:51.771Z - normal: failed to connect login server due to request timeout
-2017-09-23T03:09:51.773Z - normal: Check project C:\Users\student\Desktop\start_project
-2017-09-23T03:09:51.774Z - normal: Initializing Cocos2d
-2017-09-23T03:09:52.988Z - normal: Initializing Asset Database
-2017-09-23T03:09:53.021Z - success: protocol uuid registerred
-2017-09-23T03:09:53.021Z - success: protocol db registerred
-2017-09-23T03:09:53.021Z - success: protocol thumbnail registerred
-2017-09-23T03:09:53.022Z - normal: Loading editor/builtin packages
-2017-09-23T03:09:53.043Z - success: anysdk loaded
-2017-09-23T03:09:53.180Z - success: assets loaded
-2017-09-23T03:09:53.182Z - success: builder loaded
-2017-09-23T03:09:53.185Z - success: hierarchy loaded
-2017-09-23T03:09:53.188Z - success: inspector loaded
-2017-09-23T03:09:53.190Z - success: keystore loaded
-2017-09-23T03:09:53.192Z - success: node-library loaded
-2017-09-23T03:09:53.194Z - success: package-asset loaded
-2017-09-23T03:09:53.196Z - success: preferences loaded
-2017-09-23T03:09:53.198Z - success: project-exporter loaded
-2017-09-23T03:09:53.215Z - success: project-importer loaded
-2017-09-23T03:09:53.217Z - success: project-settings loaded
-2017-09-23T03:09:53.219Z - success: ui-kit loaded
-2017-09-23T03:09:53.221Z - success: ui-grid loaded
-2017-09-23T03:09:53.223Z - success: scene loaded
-2017-09-23T03:09:53.227Z - success: sprite-editor loaded
-2017-09-23T03:09:53.230Z - success: store loaded
-2017-09-23T03:09:53.234Z - success: timeline loaded
-2017-09-23T03:09:53.235Z - normal: Loading builtin packages
-2017-09-23T03:09:53.237Z - success: asset-db-debugger loaded
-2017-09-23T03:09:53.238Z - success: color-picker loaded
-2017-09-23T03:09:53.241Z - success: console loaded
-2017-09-23T03:09:53.243Z - success: package-manager loaded
-2017-09-23T03:09:53.246Z - success: sdkbox loaded
-2017-09-23T03:09:53.248Z - success: tester loaded
-2017-09-23T03:09:53.250Z - success: ui-kit-preview-extra loaded
-2017-09-23T03:09:53.253Z - success: ui-kit-preview loaded
-2017-09-23T03:09:53.254Z - success: ui-tree loaded
-2017-09-23T03:09:54.223Z - normal: Initializing project C:\Users\student\Desktop\start_project
-2017-09-23T03:09:54.236Z - normal: Loading packages
-2017-09-23T03:09:54.241Z - normal: Watching packages
-2017-09-23T03:09:54.256Z - normal: Run Application
-2017-09-23T03:09:57.952Z - success: preview server running at http://localhost:7456
-2017-09-23T03:10:04.895Z - normal: 1.6.1
-2017-09-23T03:16:45.486Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8661
-2017-09-23T03:16:45.488Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8665
-2017-09-23T05:42:28.713Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "02805c49-67ff-4113-b76e-1f15b2327037"
-
-2017-09-23T05:42:28.731Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "02805c49-67ff-4113-b76e-1f15b2327037"
-
-2017-09-23T05:59:46.807Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\student\Desktop\start_project\assets\Scripts\game.js, message: Compile error: SyntaxError: C:/Users/student/Desktop/start_project/assets/Scripts/game.js: Unexpected token, expected , (57:0)
-  55 | 
-  56 |     // },
-> 57 | });
-     | ^
-  58 | 
-    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseCallExpressionArguments (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3564:12)
-    at Parser.pp$3.parseSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2017-09-23T06:37:48.745Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\student\Desktop\start_project\assets\Scripts\Game.js, message: Compile error: SyntaxError: C:/Users/student/Desktop/start_project/assets/Scripts/Game.js: Unexpected token, expected , (55:1)
-  53 | 
-  54 |     // called every frame, uncomment this function to activate update callback
-> 55 |  update: function (dt) {
-     |  ^
-  56 |         // judge if the distance between the star and main character is shorter than the collecting distance for each frame
-  57 |         if (this.getPlayerDistance() < this.pickRadius) {
-  58 |             // invoke collecting behavior
-    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2017-09-23T06:38:05.881Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\student\Desktop\start_project\assets\Scripts\Game.js, message: Compile error: SyntaxError: C:/Users/student/Desktop/start_project/assets/Scripts/Game.js: Unexpected token, expected , (55:4)
-  53 | 
-  54 |     // called every frame, uncomment this function to activate update callback
-> 55 |     update: function (dt) {
-     |     ^
-  56 |         // judge if the distance between the star and main character is shorter than the collecting distance for each frame
-  57 |         if (this.getPlayerDistance() < this.pickRadius) {
-  58 |             // invoke collecting behavior
-    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2017-09-23T07:01:32.056Z - normal: Load ~/.CocosCreator/settings.json
+2017-09-23T07:01:32.056Z - normal: checking language setting...
+2017-09-23T07:01:32.056Z - normal: Language: en
+2017-09-23T07:02:00.261Z - success: protocol editor-framework registered
+2017-09-23T07:02:00.261Z - success: protocol app registered
+2017-09-23T07:02:00.261Z - success: protocol theme registered
+2017-09-23T07:02:00.261Z - success: protocol profile registered
+2017-09-23T07:02:00.261Z - success: protocol packages registered
+2017-09-23T07:02:00.261Z - success: protocol unpack registerred
+2017-09-23T07:02:00.261Z - success: protocol disable-commonjs registerred
+2017-09-23T07:02:03.268Z - normal: failed to connect login server due to request timeout
+2017-09-23T07:02:03.270Z - normal: Check project C:\Users\student\Desktop\start_project
+2017-09-23T07:02:03.271Z - normal: Initializing Cocos2d
+2017-09-23T07:02:10.271Z - normal: Initializing Asset Database
+2017-09-23T07:02:10.476Z - success: protocol uuid registerred
+2017-09-23T07:02:10.476Z - success: protocol db registerred
+2017-09-23T07:02:10.476Z - success: protocol thumbnail registerred
+2017-09-23T07:02:10.476Z - normal: Loading editor/builtin packages
+2017-09-23T07:02:11.576Z - success: anysdk loaded
+2017-09-23T07:02:16.400Z - success: assets loaded
+2017-09-23T07:02:16.422Z - success: builder loaded
+2017-09-23T07:02:16.504Z - success: hierarchy loaded
+2017-09-23T07:02:16.604Z - success: inspector loaded
+2017-09-23T07:02:16.638Z - success: keystore loaded
+2017-09-23T07:02:16.696Z - success: node-library loaded
+2017-09-23T07:02:16.729Z - success: package-asset loaded
+2017-09-23T07:02:16.761Z - success: preferences loaded
+2017-09-23T07:02:16.785Z - success: project-exporter loaded
+2017-09-23T07:02:17.252Z - success: project-importer loaded
+2017-09-23T07:02:17.255Z - success: project-settings loaded
+2017-09-23T07:02:17.333Z - success: ui-kit loaded
+2017-09-23T07:02:17.388Z - success: ui-grid loaded
+2017-09-23T07:02:17.523Z - success: scene loaded
+2017-09-23T07:02:17.568Z - success: sprite-editor loaded
+2017-09-23T07:02:17.669Z - success: store loaded
+2017-09-23T07:02:17.862Z - success: timeline loaded
+2017-09-23T07:02:17.863Z - normal: Loading builtin packages
+2017-09-23T07:02:17.911Z - success: asset-db-debugger loaded
+2017-09-23T07:02:17.957Z - success: color-picker loaded
+2017-09-23T07:02:18.128Z - success: console loaded
+2017-09-23T07:02:18.235Z - success: package-manager loaded
+2017-09-23T07:02:18.410Z - success: sdkbox loaded
+2017-09-23T07:02:18.481Z - success: tester loaded
+2017-09-23T07:02:18.532Z - success: ui-kit-preview-extra loaded
+2017-09-23T07:02:18.581Z - success: ui-kit-preview loaded
+2017-09-23T07:02:18.633Z - success: ui-tree loaded
+2017-09-23T07:02:26.470Z - normal: Initializing project C:\Users\student\Desktop\start_project
+2017-09-23T07:02:26.511Z - normal: Loading packages
+2017-09-23T07:02:26.533Z - normal: Watching packages
+2017-09-23T07:02:26.562Z - normal: Run Application
+2017-09-23T07:02:30.208Z - success: preview server running at http://localhost:7456
+2017-09-23T07:02:45.224Z - normal: 1.6.1
