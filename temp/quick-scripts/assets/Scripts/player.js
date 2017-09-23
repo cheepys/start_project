@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Scripts/player.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '68636B52Y9IrZwqpzKh79Q7', 'player', __filename);
-// Scripts/player.js
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Scripts/Player.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, '68636B52Y9IrZwqpzKh79Q7', 'Player', __filename);
+// Scripts/Player.js
 
 "use strict";
 
@@ -104,5 +104,5 @@ cc._RF.pop();
             });
         }
         })();
-        //# sourceMappingURL=player.js.map
+        //# sourceMappingURL=Player.js.map
         
