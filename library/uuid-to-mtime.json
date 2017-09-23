@@ -275,8 +275,8 @@
     "relativePath": "textures\\star.png"
   },
   "ffca76a4-2a15-46a9-9d4c-9d9ae5fe25cb": {
-    "asset": 1506141332934,
-    "meta": 1506141332987,
+    "asset": 1506144006766,
+    "meta": 1506144006797,
     "relativePath": "game.fire"
   },
   "ceacc00a-3715-4abd-9997-ca79734396c8": {
@@ -285,8 +285,8 @@
     "relativePath": "Scripts"
   },
   "68636079-d98f-48ad-9c2a-a732a1efd43b": {
-    "asset": 1506138127165,
-    "meta": 1506138140714,
+    "asset": 1506143718022,
+    "meta": 1506143720133,
     "relativePath": "Scripts\\player.js"
   }
 }
