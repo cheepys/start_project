@@ -52,3 +52,61 @@
 2017-09-23T03:10:04.895Z - normal: 1.6.1
 2017-09-23T03:16:45.486Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8661
 2017-09-23T03:16:45.488Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:8665
+2017-09-23T05:42:28.713Z - warn: The Asset used is missing. Detailed information:
+Missing uuid: "02805c49-67ff-4113-b76e-1f15b2327037"
+
+2017-09-23T05:42:28.731Z - warn: The Asset used is missing. Detailed information:
+Missing uuid: "02805c49-67ff-4113-b76e-1f15b2327037"
+
+2017-09-23T05:59:46.807Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\student\Desktop\start_project\assets\Scripts\game.js, message: Compile error: SyntaxError: C:/Users/student/Desktop/start_project/assets/Scripts/game.js: Unexpected token, expected , (57:0)
+  55 | 
+  56 |     // },
+> 57 | });
+     | ^
+  58 | 
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseCallExpressionArguments (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3564:12)
+    at Parser.pp$3.parseSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2017-09-23T06:37:48.745Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\student\Desktop\start_project\assets\Scripts\Game.js, message: Compile error: SyntaxError: C:/Users/student/Desktop/start_project/assets/Scripts/Game.js: Unexpected token, expected , (55:1)
+  53 | 
+  54 |     // called every frame, uncomment this function to activate update callback
+> 55 |  update: function (dt) {
+     |  ^
+  56 |         // judge if the distance between the star and main character is shorter than the collecting distance for each frame
+  57 |         if (this.getPlayerDistance() < this.pickRadius) {
+  58 |             // invoke collecting behavior
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2017-09-23T06:38:05.881Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\student\Desktop\start_project\assets\Scripts\Game.js, message: Compile error: SyntaxError: C:/Users/student/Desktop/start_project/assets/Scripts/Game.js: Unexpected token, expected , (55:4)
+  53 | 
+  54 |     // called every frame, uncomment this function to activate update callback
+> 55 |     update: function (dt) {
+     |     ^
+  56 |         // judge if the distance between the star and main character is shorter than the collecting distance for each frame
+  57 |         if (this.getPlayerDistance() < this.pickRadius) {
+  58 |             // invoke collecting behavior
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
