@@ -24,6 +24,12 @@ cc.Class({
         scoreDisplay: {
             default: null,
             type: cc.Label
+        },
+
+        // scoring sound effect resource
+        scoreAudio: {
+            default: null,
+            url: cc.AudioClip
         }		
     },
 
@@ -60,6 +66,8 @@ cc.Class({
         this.score += 1;
         // update the words of the scoreDisplay Label
         this.scoreDisplay.string = 'Score: ' + this.score.toString();
+        // play the scoring sound effect
+        cc.audioEngine.playEffect(this.scoreAudio, false);
     },
 
     // called every frame, uncomment this function to activate update callback

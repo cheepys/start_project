@@ -10,6 +10,11 @@ cc.Class({
         maxMoveSpeed: 0,
         // acceleration
         accel: 0,
+		
+        jumpAudio: {
+            default: null,
+            url: cc.AudioClip
+        },
     },
 
 	setJumpAction: function () {
@@ -17,9 +22,17 @@ cc.Class({
         var jumpUp = cc.moveBy(this.jumpDuration, cc.p(0, this.jumpHeight)).easing(cc.easeCubicActionOut());
         // jump down
         var jumpDown = cc.moveBy(this.jumpDuration, cc.p(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
+        // add a callback function to invoke other defined methods after the action is finished
+        var callback = cc.callFunc(this.playJumpSound, this);
         // repeat
-        return cc.repeatForever(cc.sequence(jumpUp, jumpDown));
+        return cc.repeatForever(cc.sequence(jumpUp, jumpDown, callback));
     },
+	
+    playJumpSound: function () {
+        // invoke sound engine to play the sound
+        cc.audioEngine.playEffect(this.jumpAudio, false);
+    },
+	
 	
     setInputControl: function () {
         var self = this;

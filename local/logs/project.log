@@ -1,53 +1,52 @@
-2017-09-23T07:01:32.056Z - normal: Load ~/.CocosCreator/settings.json
-2017-09-23T07:01:32.056Z - normal: checking language setting...
-2017-09-23T07:01:32.056Z - normal: Language: en
-2017-09-23T07:02:00.261Z - success: protocol editor-framework registered
-2017-09-23T07:02:00.261Z - success: protocol app registered
-2017-09-23T07:02:00.261Z - success: protocol theme registered
-2017-09-23T07:02:00.261Z - success: protocol profile registered
-2017-09-23T07:02:00.261Z - success: protocol packages registered
-2017-09-23T07:02:00.261Z - success: protocol unpack registerred
-2017-09-23T07:02:00.261Z - success: protocol disable-commonjs registerred
-2017-09-23T07:02:03.268Z - normal: failed to connect login server due to request timeout
-2017-09-23T07:02:03.270Z - normal: Check project C:\Users\student\Desktop\start_project
-2017-09-23T07:02:03.271Z - normal: Initializing Cocos2d
-2017-09-23T07:02:10.271Z - normal: Initializing Asset Database
-2017-09-23T07:02:10.476Z - success: protocol uuid registerred
-2017-09-23T07:02:10.476Z - success: protocol db registerred
-2017-09-23T07:02:10.476Z - success: protocol thumbnail registerred
-2017-09-23T07:02:10.476Z - normal: Loading editor/builtin packages
-2017-09-23T07:02:11.576Z - success: anysdk loaded
-2017-09-23T07:02:16.400Z - success: assets loaded
-2017-09-23T07:02:16.422Z - success: builder loaded
-2017-09-23T07:02:16.504Z - success: hierarchy loaded
-2017-09-23T07:02:16.604Z - success: inspector loaded
-2017-09-23T07:02:16.638Z - success: keystore loaded
-2017-09-23T07:02:16.696Z - success: node-library loaded
-2017-09-23T07:02:16.729Z - success: package-asset loaded
-2017-09-23T07:02:16.761Z - success: preferences loaded
-2017-09-23T07:02:16.785Z - success: project-exporter loaded
-2017-09-23T07:02:17.252Z - success: project-importer loaded
-2017-09-23T07:02:17.255Z - success: project-settings loaded
-2017-09-23T07:02:17.333Z - success: ui-kit loaded
-2017-09-23T07:02:17.388Z - success: ui-grid loaded
-2017-09-23T07:02:17.523Z - success: scene loaded
-2017-09-23T07:02:17.568Z - success: sprite-editor loaded
-2017-09-23T07:02:17.669Z - success: store loaded
-2017-09-23T07:02:17.862Z - success: timeline loaded
-2017-09-23T07:02:17.863Z - normal: Loading builtin packages
-2017-09-23T07:02:17.911Z - success: asset-db-debugger loaded
-2017-09-23T07:02:17.957Z - success: color-picker loaded
-2017-09-23T07:02:18.128Z - success: console loaded
-2017-09-23T07:02:18.235Z - success: package-manager loaded
-2017-09-23T07:02:18.410Z - success: sdkbox loaded
-2017-09-23T07:02:18.481Z - success: tester loaded
-2017-09-23T07:02:18.532Z - success: ui-kit-preview-extra loaded
-2017-09-23T07:02:18.581Z - success: ui-kit-preview loaded
-2017-09-23T07:02:18.633Z - success: ui-tree loaded
-2017-09-23T07:02:26.470Z - normal: Initializing project C:\Users\student\Desktop\start_project
-2017-09-23T07:02:26.511Z - normal: Loading packages
-2017-09-23T07:02:26.533Z - normal: Watching packages
-2017-09-23T07:02:26.562Z - normal: Run Application
-2017-09-23T07:02:30.208Z - success: preview server running at http://localhost:7456
-2017-09-23T07:02:45.224Z - normal: 1.6.1
-2017-09-23T07:16:37.291Z - info: shutdown preview server
+2017-09-30T03:06:34.835Z - normal: Load ~/.CocosCreator/settings.json
+2017-09-30T03:06:34.851Z - normal: checking language setting...
+2017-09-30T03:06:34.851Z - normal: Language: en
+2017-09-30T03:06:46.207Z - success: protocol editor-framework registered
+2017-09-30T03:06:46.210Z - success: protocol app registered
+2017-09-30T03:06:46.210Z - success: protocol theme registered
+2017-09-30T03:06:46.210Z - success: protocol profile registered
+2017-09-30T03:06:46.210Z - success: protocol packages registered
+2017-09-30T03:06:46.214Z - success: protocol unpack registerred
+2017-09-30T03:06:46.214Z - success: protocol disable-commonjs registerred
+2017-09-30T03:06:46.543Z - normal: connected!
+2017-09-30T03:06:46.546Z - normal: Check project C:\Users\student\Desktop\start_project
+2017-09-30T03:06:46.548Z - normal: Initializing Cocos2d
+2017-09-30T03:06:52.693Z - normal: Initializing Asset Database
+2017-09-30T03:06:52.850Z - success: protocol uuid registerred
+2017-09-30T03:06:52.850Z - success: protocol db registerred
+2017-09-30T03:06:52.851Z - success: protocol thumbnail registerred
+2017-09-30T03:06:52.851Z - normal: Loading editor/builtin packages
+2017-09-30T03:06:52.993Z - success: anysdk loaded
+2017-09-30T03:06:53.202Z - success: assets loaded
+2017-09-30T03:06:53.205Z - success: builder loaded
+2017-09-30T03:06:53.215Z - success: hierarchy loaded
+2017-09-30T03:06:53.219Z - success: inspector loaded
+2017-09-30T03:06:53.221Z - success: keystore loaded
+2017-09-30T03:06:53.224Z - success: node-library loaded
+2017-09-30T03:06:53.226Z - success: package-asset loaded
+2017-09-30T03:06:53.229Z - success: preferences loaded
+2017-09-30T03:06:53.231Z - success: project-exporter loaded
+2017-09-30T03:06:53.251Z - success: project-importer loaded
+2017-09-30T03:06:53.253Z - success: project-settings loaded
+2017-09-30T03:06:53.259Z - success: ui-kit loaded
+2017-09-30T03:06:53.274Z - success: ui-grid loaded
+2017-09-30T03:06:53.280Z - success: scene loaded
+2017-09-30T03:06:53.282Z - success: sprite-editor loaded
+2017-09-30T03:06:53.286Z - success: store loaded
+2017-09-30T03:06:53.292Z - success: timeline loaded
+2017-09-30T03:06:53.292Z - normal: Loading builtin packages
+2017-09-30T03:06:53.299Z - success: asset-db-debugger loaded
+2017-09-30T03:06:53.300Z - success: color-picker loaded
+2017-09-30T03:06:53.304Z - success: console loaded
+2017-09-30T03:06:53.308Z - success: package-manager loaded
+2017-09-30T03:06:53.321Z - success: sdkbox loaded
+2017-09-30T03:06:53.325Z - success: tester loaded
+2017-09-30T03:06:53.328Z - success: ui-kit-preview-extra loaded
+2017-09-30T03:06:53.331Z - success: ui-kit-preview loaded
+2017-09-30T03:06:53.333Z - success: ui-tree loaded
+2017-09-30T03:06:55.228Z - normal: Initializing project C:\Users\student\Desktop\start_project
+2017-09-30T03:06:55.257Z - normal: Loading packages
+2017-09-30T03:06:55.263Z - normal: Watching packages
+2017-09-30T03:06:55.290Z - normal: Run Application
+2017-09-30T03:07:02.402Z - success: preview server running at http://localhost:7456
+2017-09-30T03:07:19.508Z - normal: 1.6.1
